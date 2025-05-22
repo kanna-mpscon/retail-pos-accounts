@@ -1,0 +1,48 @@
+# =========================================
+# Node.js
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# =========================================
+# React (typically in a /client or /frontend directory)
+# =========================================
+build/
+.cache/
+public/static/
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Vite/CRA specific
+.vite/
+.vscode/
+
+
+# =========================================
+# Common files
+# =========================================
+
+*.zip
+*.rar
+*.tgz
+*.tar.gz
+*.tar       
